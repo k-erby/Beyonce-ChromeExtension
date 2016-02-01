@@ -1,0 +1,18 @@
+{
+  "name": "Beyonce Quote Generator",
+  "description": "This pulls up arbitrary beyonce quotes and puts them on shit",
+  "version": "0.0.0.1",
+  "manifest_version": 2,
+  "icons": {
+    "128": "beyonceIcon.png"
+  },
+
+  "browser_action": {
+   "default_icon": "beyonceIcon.png",
+   "default_popup": "background.html"
+  },
+
+  "permissions": [
+   "activeTab"
+   ]
+}
